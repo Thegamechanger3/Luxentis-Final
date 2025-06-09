@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | Luxentis</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">Luxentis</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="services">
+          <a href="#">Services</a>
+          <ul class="dropdown">
+            <li><a href="website.html">Development</a></li>
+            <li><a href="cyber-security.html">Cyber Security</a></li>
+          </ul>
+        </li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li class="lang-toggle">
+          <button class="lang-btn">
+            🇬🇧 / 🇫🇷
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section class="contact-section">
+    <div class="contact-container">
+      
+
+<!-- LEFT: Contact Form -->
+<div class="contact-left">
+  <div class="form-box">
+    <form action="submit-form.php" method="POST" class="contact-form">
+      <div class="form-grid">
+        <div class="form-group">
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" name="first-name" placeholder="John" required />
+        </div>
+        <div class="form-group">
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name" name="last-name" placeholder="Doe" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your@email.lu" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone (optional)</label>
+          <input type="tel" id="phone" name="phone" placeholder="+352 123 456 789" />
+        </div>
+        <div class="form-group">
+          <label for="company">Company</label>
+          <input type="text" id="company" name="company" placeholder="Company S.A." required />
+        </div>
+        <div class="form-group">
+          <label for="position">Position (optional)</label>
+          <input type="text" id="position" name="position" placeholder="Your Position" />
+        </div>
+        <div class="form-group full-width">
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Describe what you’re looking for..." required></textarea>
+        </div>
+        <div class="form-group full-width">
+          <button type="submit">Send Message</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+  
+  
+      <!-- RIGHT: Address & Google Map -->
+      <div class="contact-right">
+        <p>We are here to help you with anything you need.</p>
+        <h1>Luxentis HQ</h1>
+        <h2>42 Rue Portland,<br>Esch-sur-Alzette, L-4281<br>Luxembourg</h2>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2590.5103881089162!2d5.991415276413694!3d49.51263937142836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4795350c505e55ef%3A0x7f2c724ce4b18a49!2s42%20Rue%20Portland%2C%204281%20Esch-sur-Alzette!5e0!3m2!1sfr!2slu!4v1747684293816!5m2!1sfr!2slu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+
+  <!-- Second Page-->
+<section class="scan-section">
+  <div class="blue-glow-contact"></div>
+    <div class="scan-content">
+      <div class="text-column">
+        <p class="highlight">WE KEEP THINGS RUNNING - YOU KEEP GROWING </p>
+  
+        <h1>24 / 7 Peace of Mind</h1>
+  
+        <div class="check-heading">
+          <div class="check-icon-svg">
+            <svg viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="12" r="12" fill="#499b63"/>
+              <path d="M7 13L10.5 16.5L17 10" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h2>Stay Informed, Stay Ahead</h2>
+        </div>
+        <p>We scan your website in real-time to uncover weaknesses and leaked data — giving you the power to act before issues grow.</p>
+  
+        <div class="check-heading">
+          <div class="check-icon-svg">
+            <svg viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="12" r="12" fill="#499b63"/>
+              <path d="M7 13L10.5 16.5L17 10" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h2>Reliable Support, Anytime You Need</h2>
+        </div>
+        <p>With ongoing maintenance, we’re your trusted partner day and night.From updates to quick fixes, we keep your website or app running smoothly and securely, giving you real peace of mind.</p>
+  
+        <div class="check-heading">
+          <div class="check-icon-svg">
+            <svg viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="12" r="12" fill="#499b63"/>
+              <path d="M7 13L10.5 16.5L17 10" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h2>Ongoing Monitoring and Reports</h2>
+        </div>
+        <p>24 / 7 peace of mind with monitoring, and monthly scanning of your assets. Our public and private data breaches consist of over 88,802,443,000 records.</p>
+      </div>
+  
+      <div class="image-column">
+        <img src="security.svg" alt="Scan illustration">
+      </div>
+    </div>
+  </section>
+  
+  <!--CTA DESIGN-->
+  
+  <section class="cta-scan-secondary">
+    <div class="cta-icon">
+      <svg aria-label="Like" viewBox="0 0 24 24" class="StyledIcon-sc-ofa7kd-0 hyqZQC">
+        <path fill="none" stroke="#000" stroke-width="2" d="M1 23h19c2 0 3-1 3-3V10h-7V4c0-2-1-3-3-3h-2s-.016 6-.016 7.326C10.984 9.652 10 11 8 11H1v12zm5 0V11"></path>
+      </svg>
+    </div>
+    <h2>Want to Build Something Great? Let’s Get Started Together</h2>
+    <div class="scan-input">
+      <input type="text" placeholder="Enter your email">
+      <button>Send</button>
+    </div>
+  </section>
+  
+  
+  <!--Footer-->
+  
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h2 class="footer-brand">Luxentis</h2>
+        <p>
+          Luxentis builds secure web and app solutions with cybersecurity at the core.
+          By using the same tools and tactics as real attackers, we help identify and
+          eliminate risks before they become threats.
+        </p>
+        <p class="footer-copy">Copyright by Luxentis, LLC<br>&copy; 2025, All Rights Reserved.</p>
+      </div>
+  
+      <div class="footer-column">
+        <h4>Useful Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="website.html">Services</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-column">
+        <h4>Terms</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-column">
+        <h4>Contact Us</h4>
+        <p><a href="mailto:contact@pentester.com">Luxentislu@gmail.com</a></p>
+        <p>
+          42, Rue Portland<br>
+          Esch-sur-Alzette<br>
+          L-4281
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  
+  
+    <script src="script.js"></script>
+  </body>
+  </html>
+  
+  
+</body>
+</html>
